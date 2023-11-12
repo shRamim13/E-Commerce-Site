@@ -10,7 +10,7 @@
 
 .cartitems-format-main {
     display: grid;
-    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr 1fr;
     gap: 75px;
     align-items: center;
     padding: 20px 0px;
@@ -28,6 +28,12 @@
     height: 65px;
 }
 
+.cartitems-add-icon {
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+
 .cartitems-remove-icon {
     width: 15px;
     margin: 0px 40px;
@@ -41,12 +47,17 @@
     background: #fff;
 }
 
-.cartitems-down {
+.cartitems-total {
     flex: 1;
     display: flex;
     flex-direction: column;
     margin-right: 200px;
     gap: 40px;
+}
+
+.cartitems-down {
+    display: flex;
+    margin: 100px 0px;
 }
 
 .cartitems-total-item {
